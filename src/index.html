@@ -36,11 +36,14 @@
   </head>
   <body>
     <!-- Nav -->
-    <div class="max-w-[1536px] px-24 mx-auto flex justify-between items-center">
+    <div
+      class="max-w-[1536px] md:px-12 md:py-5 lg:px-24 lg:py-0 mx-auto flex justify-between items-center"
+    >
       <a href="#">
         <img src="/src/assets/site/logo.svg" alt="MailerLite" />
       </a>
-      <ul class="flex gap-12 py-7">
+
+      <ul class="hidden lg:flex gap-12 py-7">
         <li>
           <a href="#" class="flex"
             >Features
@@ -68,7 +71,8 @@
           /></a>
         </li>
       </ul>
-      <div class="flex gap-6 items-center">
+
+      <div class="flex md:gap-4 lg:gap-6 items-center">
         <a href="#" class="flex gap-1 uppercase">
           <img src="/src/assets/site/icons/globe.svg" alt="globe" />
           En
@@ -80,21 +84,27 @@
         <a href="#"
           ><img src="/src/assets/site/icons/search.svg" alt="search"
         /></a>
-        <a href="#">Login</a>
+        <a href="#" class="hidden lg:block">Login</a>
         <a
           href="#"
-          class="bg-primary rounded-md px-6 py-3 text-white duration-300 transition-all hover:bg-primary/70"
+          class="hidden lg:block bg-primary rounded-md px-6 py-3 text-white duration-300 transition-all hover:bg-primary/70"
           >Sign up</a
         >
+        <!-- mobile menu -->
+        <a href="#">
+          <img src="/src/assets/site/icons/hamburger-menu.svg" alt="Menu" />
+        </a>
       </div>
     </div>
 
     <!-- Hero section -->
     <div
-      class="max-w-[1536px] px-24 mx-auto flex flex-col items-center gap-[55px] mt-[120px]"
+      class="max-w-[1536px] md:px-12 lg:px-24 mx-auto flex flex-col items-center gap-[55px] md:mt-[70px] lg:mt-[120px]"
     >
       <div class="flex flex-col gap-7 items-center">
-        <h1 class="text-[64px] font-bold leading-tight">
+        <h1
+          class="md:text-5xl lg:text-[64px] font-bold md:leading-snug lg:leading-tight text-center"
+        >
           Create
           <span class="px-4 py-0.5 bg-lightGreen inline rounded-lg"
             >email marketing</span
@@ -128,9 +138,11 @@
 
     <!-- Features section -->
     <div
-      class="bg-background py-[90px] mt-[120px] flex flex-col items-center gap-[80px]"
+      class="bg-background md:py-16 lg:py-[90px] md:mt-[70px] lg:mt-[120px] flex flex-col items-center gap-[80px]"
     >
-      <div class="max-w-[1536px] px-24 mx-auto grid grid-cols-2 gap-6">
+      <div
+        class="max-w-[1536px] md:px-12 lg:px-24 mx-auto grid grid-cols-2 gap-6"
+      >
         <!-- item -->
         <a
           href="#"
@@ -142,7 +154,7 @@
             class="rounded-lg border border-heading/5"
           />
           <div class="flex flex-col gap-3">
-            <h3 class="font-bold text-2xl">Track your results</h3>
+            <h3 class="font-bold md:text-xl lg:text-2xl">Track your results</h3>
             <p>
               Monitor performance to find what works best for your business.
             </p>
@@ -159,7 +171,7 @@
             class="rounded-lg border border-heading/5"
           />
           <div class="flex flex-col gap-3">
-            <h3 class="font-bold text-2xl">Email campaigns</h3>
+            <h3 class="font-bold md:text-xl lg:text-2xl">Email campaigns</h3>
             <p>
               Create engaging, dynamic emails in minutes with our intuitive drag
               & drop email editor.
@@ -177,7 +189,7 @@
             class="rounded-lg border border-heading/5"
           />
           <div class="flex flex-col gap-3">
-            <h3 class="font-bold text-2xl">Automations</h3>
+            <h3 class="font-bold md:text-xl lg:text-2xl">Automations</h3>
             <p>
               Create engaging, dynamic emails in minutes with our intuitive drag
               & drop email editor.
@@ -195,7 +207,9 @@
             class="rounded-lg border border-heading/5"
           />
           <div class="flex flex-col gap-3">
-            <h3 class="font-bold text-2xl">Sell digital products</h3>
+            <h3 class="font-bold md:text-xl lg:text-2xl">
+              Sell digital products
+            </h3>
             <p>
               Sell ebooks, downloads, or whatever else will help subscribers.
             </p>
@@ -208,7 +222,7 @@
             class="bg-white border border-border rounded-lg p-6 flex flex-col gap-8 duration-300 transition-all hover:scale-105 hover:drop-shadow-xl"
           >
             <div class="flex flex-col gap-3">
-              <h3 class="font-bold text-2xl">Websites</h3>
+              <h3 class="font-bold md:text-xl lg:text-2xl">Websites</h3>
               <p>
                 Build stunning websites on your own and let your business shine.
               </p>
@@ -220,7 +234,7 @@
             class="bg-white border border-border rounded-lg p-6 flex flex-col gap-8 duration-300 transition-all hover:scale-105 hover:drop-shadow-xl"
           >
             <div class="flex flex-col gap-3">
-              <h3 class="font-bold text-2xl">Signup forms</h3>
+              <h3 class="font-bold md:text-xl lg:text-2xl">Signup forms</h3>
               <p>Grow your audience with highly-effective subscribe forms.</p>
             </div>
           </a>
@@ -230,7 +244,9 @@
             class="bg-white border border-border rounded-lg p-6 flex flex-col gap-8 duration-300 transition-all hover:scale-105 hover:drop-shadow-xl"
           >
             <div class="flex flex-col gap-3">
-              <h3 class="font-bold text-2xl">Paid newsletter subscriptions</h3>
+              <h3 class="font-bold md:text-xl lg:text-2xl">
+                Paid newsletter subscriptions
+              </h3>
               <p>
                 Easily set up recurring payments to offer paid subscriptions.
               </p>
@@ -240,7 +256,7 @@
       </div>
       <a
         href="#"
-        class="flex gap-[10px] px-6 py-4 bg-lightGreen rounded-lg text-2xl duration-300 transition-all hover:bg-primary/30 hover:gap-4"
+        class="flex gap-[10px] px-6 py-4 bg-lightGreen rounded-lg md:text-xl lg:text-2xl duration-300 transition-all hover:bg-primary/30 hover:gap-4"
         >And many more features to grow your business
         <img src="/src/assets/site/icons/arrow-right.svg" alt="arrow-right"
       /></a>
