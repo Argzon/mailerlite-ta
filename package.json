@@ -1,0 +1,23 @@
+{
+  "name": "mailerlite-ta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Argzon/mailerlite-ta.git"
+  },
+  "author": "Argzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Argzon/mailerlite-ta/issues"
+  },
+  "homepage": "https://github.com/Argzon/mailerlite-ta#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
