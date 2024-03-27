@@ -4,4 +4,5 @@
 
 Design + Development 
 
-- [Demo vercel page](https://mailerlite-ta.vercel.app/)
+- [Homepage v1 live site](https://mailerlite-ta.vercel.app/)
+- [Homepage v2 live site](https://mailerlite-ta.vercel.app/index-2.html)
